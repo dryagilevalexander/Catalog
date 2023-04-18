@@ -11,8 +11,8 @@ namespace Core
     {
     [Column("id")]
     public int Id { get; set; }
-    [Column("number")]
-    public string Number { get; set; }
+    [Column("area")]
+    public int Area { get; set; }
     [Column("house_id")]
     public int HouseId { get; set; }
     public House House { get; set; }

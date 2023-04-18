@@ -9,7 +9,7 @@ namespace Core
 {
     public class City
     {
-    [Column("id")]
+    [Column("Id")]
     public int Id { get; set; }
     [Column("name")]
     public string Name { get; set; }

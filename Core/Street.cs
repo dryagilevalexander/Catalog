@@ -9,7 +9,6 @@ namespace Core
 {
     public class Street
     {
-
     [Column("id")]
     public int Id { get; set; }
     [Column("name")]
